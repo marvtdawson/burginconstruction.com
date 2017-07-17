@@ -1,0 +1,7 @@
+[04-Jun-2017 23:57:23 UTC] RuntimeException: Failed to start the session because headers have already been sent by "/home/whosmonkey72/public_html/burginconstructionllc.com/vendor/symfony/http-foundation/Response.php" at line 1160. in /home/whosmonkey72/public_html/burginconstructionllc.com/vendor/symfony/http-foundation/Session/Storage/NativeSessionStorage.php on line 140 #0 /home/whosmonkey72/public_html/burginconstructionllc.com/core/lib/Drupal/Core/Session/SessionManager.php(163): Symfony\Component\HttpFoundation\Session\Storage\NativeSessionStorage->start()
+#1 /home/whosmonkey72/public_html/burginconstructionllc.com/core/lib/Drupal/Core/Session/SessionManager.php(194): Drupal\Core\Session\SessionManager->startNow()
+#2 /home/whosmonkey72/public_html/burginconstructionllc.com/vendor/symfony/http-foundation/Session/Session.php(181): Drupal\Core\Session\SessionManager->save()
+#3 /home/whosmonkey72/public_html/burginconstructionllc.com/core/includes/install.core.inc(146): Symfony\Component\HttpFoundation\Session\Session->save()
+#4 /home/whosmonkey72/public_html/burginconstructionllc.com/core/install.php(44): install_drupal(Object(Composer\Autoload\ClassLoader))
+#5 {main}
+[28-Jun-2017 08:20:31 UTC] PHP Deprecated:  Automatically populating $HTTP_RAW_POST_DATA is deprecated and will be removed in a future version. To avoid this warning set 'always_populate_raw_post_data' to '-1' in php.ini and use the php://input stream instead. in Unknown on line 0
